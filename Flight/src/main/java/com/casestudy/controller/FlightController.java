@@ -42,14 +42,14 @@ public class FlightController {
 	@PostMapping("/addflight")
 	public String addflight(@RequestBody FlightModel flightmodel) {
 		flightrepo.save(flightmodel);
-		
+		//cvcvc
  
         return "Flight Added Successfully";
-	}
+	} //fnhrnfjnfnr
  
 	
 	
-	// to get all flight details
+	 
 	@GetMapping("/viewallflights")
 	public List<FlightModel> getAllFlights(){
 		
